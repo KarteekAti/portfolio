@@ -1,10 +1,7 @@
-import Res from '../../Assets/Resume.pdf'
-import { Document, Page } from 'react-pdf';
 
-
-export default function Resume() {
+export default function Footer() {
     return (
-        <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8">
+        <footer class="p-4 rounded-lg shadow md:px-6 md:py-8">
 
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <h1 className='text-xl font-bold text-purple-700 mb-4 xs:text-center'>Karteek Ati</h1>

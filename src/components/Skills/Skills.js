@@ -20,8 +20,8 @@ export default function Skills() {
     return (
         <section id="skills" className="mt-10 px-6 py-3 flex flex-col justify-center items-center">
             <h1 className='mb-8 font-bold text-4xl'>Skills</h1>
-            <div className='flex flex-wrap justify-center items-center gap-6 '>
-                <div className="flex flex-col justify-center items-center md:w-1/3 shadow-md bg-gray-100 text-purple-700 transition-all">
+            <div className='flex flex-wrap justify-center items-center gap-6  '>
+                <div className="flex flex-col justify-center items-center md:w-1/3 shadow-md dark:bg-[#111111] bg-gray-100 text-purple-700 transition-all">
                     <h1 className='p-4 text-2xl font-bold'>Frontend</h1>
                     <div className='flex flex-wrap gap-6 mb-6 mx-4 justify-center'>
                         <img src={ReactImage} className='max-h-20 '></img>
@@ -33,7 +33,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="mt-4 flex flex-col justify-center items-center md:w-1/2 shadow-md bg-gray-100 text-purple-700 transition-all">
+                <div className="mt-4 flex flex-col justify-center items-center md:w-1/2 shadow-md dark:bg-[#111111] bg-gray-100 text-purple-700 transition-all">
                     <h1 className='p-4 text-2xl font-bold'>Backend</h1>
                     <div className='flex flex-wrap gap-6 mb-6 mx-4 justify-center'>
                         <img src={Node} className='max-h-16 '></img>
@@ -45,7 +45,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="mt-4 flex flex-col justify-center items-center md:w-1/3 shadow-md bg-gray-100 text-purple-700 transition-all">
+                <div className="mt-4 flex flex-col justify-center items-center md:w-1/3 shadow-md dark:bg-[#111111] bg-gray-100 text-purple-700 transition-all">
                     <h1 className='p-4 text-2xl font-bold'>Machine Learning</h1>
                     <div className='flex flex-wrap gap-6 mb-6 mx-4 justify-center'>
                         <img src={Tensorflow} className='max-h-20 '></img>
@@ -54,7 +54,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="mt-4 flex flex-col justify-center items-center md:w-1/2 shadow-md bg-gray-100 text-purple-700 transition-all">
+                <div className="mt-4 flex flex-col justify-center items-center md:w-1/2 shadow-md dark:bg-[#111111] bg-gray-100 text-purple-700 transition-all">
                     <h1 className='p-4 text-2xl font-bold'>Cloud Technologies</h1>
                     <div className='flex flex-wrap gap-6 mb-6 mx-4 justify-center'>
                         <img src={GCP} className='max-h-16 '></img>

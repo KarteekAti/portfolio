@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import Education from './components/Education/Education';
 import Project from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
-import Resume from './components/Resume/Resume';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Education />
       <Project />
       <Skills />
-      <Resume />
+      <Footer />
     </BrowserRouter>
   );
 }

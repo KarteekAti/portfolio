@@ -27,15 +27,15 @@ export default function Project() {
             <div className='flex xs:flex-col md:flex-row gap-6'>
                 {
                     projects.map((project, i) => (
-                        <div className="max-w-xs rounded bg-gray-100 overflow-hidden shadow-md relative hover:-translate-y-2 transition-all ">
+                        <div className="max-w-xs rounded bg-gray-100 dark:bg-[#111111] overflow-hidden shadow-md relative hover:-translate-y-2 transition-all ">
                             <img className='w-fit' src={project.img} alt="Project Pic" />
                             <div className="px-6 py-2">
                                 <div className="font-bold text-xl mb-2 text-purple-700 flex justify-center items-center"><a href={project.link}>{project.title}</a></div>
                                 <div className='pt-1 px-2 pb-2 flex justify-center gap-28'>
                                     <a href={project.link}> {<UilLink className='p-1 w-16 bg-purple-700 rounded-full text-white' />}</a>
-                                    <a href={project.github}> {<UilGithub className='p-1 w-16 bg-black rounded-full text-white' />}</a>
+                                    <a href={project.github}> {<UilGithub className='p-1 w-16 bg-black dark:bg-zinc-200 rounded-full text-white dark:text-black' />}</a>
                                 </div>
-                                <p className="text-gray-700 text-base line-clamp-3">
+                                <p className="text-gray-700 dark:text-zinc-200 text-base line-clamp-3">
                                     {project.desc}
                                 </p>
                             </div>
