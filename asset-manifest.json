@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.79f67726.css",
-    "main.js": "/portfolio/static/js/main.2ef9174a.js",
+    "main.js": "/portfolio/static/js/main.c16b058b.js",
     "static/media/IMG_0886.jpg": "/portfolio/static/media/IMG_0886.4ca34cb037c91701b614.jpg",
     "static/media/Metflix.webp": "/portfolio/static/media/Metflix.5be8cb9547ff66a6c233.webp",
     "static/media/NSCC.png": "/portfolio/static/media/NSCC.dcb41c6ceb40ee8c65cf.png",
@@ -23,10 +23,10 @@
     "static/media/js.png": "/portfolio/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
     "main.79f67726.css.map": "/portfolio/static/css/main.79f67726.css.map",
-    "main.2ef9174a.js.map": "/portfolio/static/js/main.2ef9174a.js.map"
+    "main.c16b058b.js.map": "/portfolio/static/js/main.c16b058b.js.map"
   },
   "entrypoints": [
     "static/css/main.79f67726.css",
-    "static/js/main.2ef9174a.js"
+    "static/js/main.c16b058b.js"
   ]
 }
