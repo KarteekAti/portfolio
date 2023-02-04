@@ -32,29 +32,33 @@ function Navbar() {
                             to="home"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-300}
                             duration={800}
+                            onClick={() => setNavbar(!navbar)}
                             className='cursor-pointer px-1 py-2 flex items-center leading-snug hover:opacity-75 hover:underline'>Home</Link></li>
                         <li><Link activeClass="active"
                             to="edu"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-300}
                             duration={800}
+                            onClick={() => setNavbar(!navbar)}
                             className='cursor-pointer px-1 py-2 flex items-center leading-snug hover:opacity-75 hover:underline'>Education</Link></li>
                         <li><Link activeClass="active"
                             to="projects"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-300}
                             duration={800}
+                            onClick={() => setNavbar(!navbar)}
                             className='cursor-pointer px-1 py-2 flex items-center leading-snug hover:opacity-75 hover:underline'>Projects</Link></li>
                         <li><Link activeClass="active"
                             to="skills"
                             spy={true}
                             smooth={true}
-                            offset={-100}
+                            offset={-300}
                             duration={800}
+                            onClick={() => setNavbar(!navbar)}
                             className='cursor-pointer px-1 py-2 flex items-center leading-snug hover:opacity-75 hover:underline'>Skills</Link></li>
                     </ul>
                 </div>
