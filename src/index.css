@@ -16,6 +16,7 @@ code {
     monospace;
 }
 body::-webkit-scrollbar {
+  background-color: #111111;
   width: 8px; /* width of the entire scrollbar */
 }
 
