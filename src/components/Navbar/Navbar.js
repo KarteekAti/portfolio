@@ -23,7 +23,7 @@ function Navbar() {
         <nav className="dark:bg-[#111111] sticky top-0 z-10 flex flex-row items-center justify-between px-2 py-3 bg-white text-purple-700 ">
             <div className="container px-4 xs:mx-auto sm:mx-0 max-w-full flex xs:flex-col sm:flex-row items-center justify-between ">
                 <div className="flex flex-row justify-between w-full">
-                    <a href='/'><h1 className="text-xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap ">karteek_ati</h1></a>
+                    <a href='/portfolio'><h1 className="text-xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap ">karteek_ati</h1></a>
                     <button className='cursor-pointer text-xl px-4 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none' type='button' onClick={() => setNavbar(!navbar)}><UilBars /></button>
                 </div>
                 <div className={'sm:flex flex-row items-center justify-center sm:px-12 max-w-full ' + (navbar ? 'flex' : 'hidden')}>
